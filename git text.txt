@@ -1,0 +1,65 @@
+
+Install-
+	sudo apt-get install git
+
+
+Config -
+	git config --global user.name "Saurabh"
+	git config --global user.email "saurabhburde1996@gmail.com"
+
+Config check -
+	git config --list
+
+
+clone git work -
+	git clone https://github.com/saurabhdburde/openFoam_laminar_bl_flat_plate.git
+
+
+Check git status -
+	git status
+
+
+Copy work in git clone directory
+	sudo cp -ar /mnt/e/tutorials/pratice_openfoam/flat_plate_finne .
+
+
+
+Check git status -
+	git status
+
+
+Add newly copied file -
+	git add .
+
+
+
+Check git status -
+	git status
+
+
+Commit work to git -
+	git commit -m "----Any Work related Comment "
+
+
+Check git status -
+	git status
+
+
+Push file on git -
+	git push origin master
+		or
+	git push origin main
+
+
+Check git status -
+	git status
+
+
+Pull files from git -
+	git pull
+
+
+
+
+
+
